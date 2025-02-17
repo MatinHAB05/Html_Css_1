@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Pop_ins";
+    src: url("../fonts/Poppins_Regular.ttf") format("truetype");
+}
+
+:root{
+    --bored_radius_input : 10px;
+    --border_input :     border: 1px solid transparent ;    
+    --box-shadow_input_3D: 10px 20px 20px black;
+    --box-shadow_input_2D: 0 20px 20px black;
+    --box-shadow_input_1D: 0 0 20px black;
+    --box-light_input_1D:0px 0px 5px white;
+    --darkBlue_UP : #1C46B1;
+    --lightBlue_DOWN : #1E78BE;
+    --lightOrnage_RIGHT : #F0931D;
+    --darkOrange_LEFT : #E34829;
+
+
+
+
+}
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: "Pop_ins" , sans-serif;
+    font-size: 32px;
+    outline: none;
+
+}
+
+.header_container  {
+    background-color: rgba(100, 100 ,100,0.5);   
+    text-align: center;
+    position: sticky;
+    color: white;
+    top: 0;
+    z-index: 9999;
+}
+
+.main_container{
+    display: flex;
+    background-color: #080710;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}   
+
+
+
+
+.form_container{
+    padding: 50px 35px 35px;
+    width: 400px;
+    z-index: 100;
+    position: relative;
+
+    /* background-color: rgba(255, 255, 255, 0.13);
+    box-shadow: var(--box-shadow_input_1D);
+    border-radius: var(--bored_radius_input);
+    border: 2px solid rgba(255, 255, 255, 0.13); */
+
+
+
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(8.6px);
+    -webkit-backdrop-filter: blur(8.6px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.tilte_container{
+    text-align: center;
+}
+
+.tilte_container span{
+    user-select: none;
+    color: white;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: rgba(255,255,255,0.3);
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.label_container{
+    display: block;
+    user-select: none;
+    font-size: 16px;
+    color: white;
+}
+
+.username_container{
+    margin: 20px 0 30px;
+
+}
+
+.input_container{
+    box-shadow: var(--box-shadow_input_3D);
+    background-color: rgba(255, 255, 255, 0.07);
+    height: 50px;
+    width: 100%;
+    font-weight: 300;
+    padding-left: 10px;
+    border: var(--border_input);
+    border-radius: var(--bored_radius_input);
+    color: white;
+    font-size: 14px;
+    transition: box-shadow 500ms ease;
+}
+
+
+.password_container{
+    margin: 15px 0 45px;
+}
+.button_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.submit_button{
+    width: 100%;
+    border-radius: var(--bored_radius_input);
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: bold;
+    border: var(--border_input);
+    cursor: pointer;
+    box-shadow: var(--box-shadow_input_2D);
+    transition:  100ms ease;
+
+    
+}
+.submit_button:active{
+    box-shadow: none;
+    background-color: #007bff; /* Blue for a strong active effect */
+    color: white; /* White text to stand out */
+}
+.input_container:focus{
+   box-shadow:  var(--box-light_input_1D)
+}
+
+.footer_container{
+    background-color: rgba(0, 0 , 0,0.5);   
+    text-align: center;
+}
+
+.circle_design{
+    z-index: 0;
+    position: absolute;
+    background-image: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: var(--box-shadow_input_1d);
+}
+#the_bottom{
+    bottom: -100px;
+    right: -100px;
+    background-image: linear-gradient(90deg,var(--darkOrange_LEFT),var(--lightOrnage_RIGHT));
+}
+#the_top{
+    top: -100px;
+    left: -100px;
+    background-image: linear-gradient(180deg,var(--darkBlue_UP),var(--lightBlue_DOWN));
+
+}
+
+.form_info{
+    position: relative;
+}
