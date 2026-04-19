@@ -39,4 +39,4 @@ The goal of this practice was to write HTML and CSS code and practice how a webp
 [Check it here](https://www.google.com)
 
 ## Project Demo Images
-Some project screenshots will be placed here.
+<img width="1892" height="865" alt="project screenshot" src="https://github.com/user-attachments/assets/36ea493e-8a31-4b06-b2a2-d48028bc20be" />
