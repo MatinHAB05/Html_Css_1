@@ -38,5 +38,5 @@ The goal of this practice was to write HTML and CSS code and practice how a webp
 ## How to View
 [Check it here](https://www.google.com)
 
-## Project Demo Images
-<img width="1892" height="865" alt="project screenshot" src="https://github.com/user-attachments/assets/36ea493e-8a31-4b06-b2a2-d48028bc20be" />
+## Project Preview
+<img width="1920" height="864" alt="Project Preview" src="https://github.com/user-attachments/assets/6860338c-3d82-41bd-8439-7e914ab31ec4" />
