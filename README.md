@@ -13,7 +13,7 @@ date: 2025-02-17
 - [Goals](#goals)
 - [Features](#features)
 - [How to View](#how-to-view)
-- [Project Demo Images](#project-demo-images)
+- [Project Preview](#project-preview)
 
 ## Introduction
 This project is my first practice project for reviewing and practicing the markup languages HTML and CSS. In this project, I tried to implement a login page, although the main focus was on designing the body section of the page.
