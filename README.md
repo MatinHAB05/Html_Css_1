@@ -1,4 +1,3 @@
-:::writing
 ---
 title: My First HTML-CSS Project
 author: Matin HAB
