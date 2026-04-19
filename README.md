@@ -19,13 +19,17 @@ date: 2025-02-17
 This project is my first practice project for reviewing and practicing the markup languages HTML and CSS. In this project, I tried to implement a login page, although the main focus was on designing the body section of the page.
 
 ## Todo List
-- [ ] Header
-- [x] Body
-  - [x] Design Guide Structure
-  - [x] Add Login & Form Boxes
-  - [x] CSS Styles (Colors, Shadows, Transitions, ...)
-- [ ] Footer
-- [ ] Responsive Design
+<ul style="list-style: none; padding-left: 0;">
+  <li>:white_circle: Header</li>
+  <li>:white_check_mark: Body</li>
+  <ul style="list-style: none; padding-left: 20px;">
+    <li>:white_check_mark: Design Guide Structure</li>
+    <li>:white_check_mark: Add Login & Form Boxes</li>
+    <li>:white_check_mark: CSS Styles (Colors, Shadows, Transitions, ...)</li>
+  </ul>
+  <li>:white_circle: Footer</li>
+  <li>:white_circle: Responsive Design</li>
+</ul>
 
 ## Goals
 The goal of this practice was to write HTML and CSS code and practice how a webpage layout can be designed using these markup languages. It also helped me review and reinforce the fundamentals of HTML and CSS.
