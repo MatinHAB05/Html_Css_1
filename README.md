@@ -1,50 +1,178 @@
 ---
-title: Master Markdown Showcase
-author: GapGPT
+title: Ultimate Markdown Demo
+author: Example Author
+tags: [markdown, demo, cheatsheet]
 date: 2026-04-19
-tags: [markdown, tutorial, cheat-sheet]
 ---
 
-# 🚀 The Ultimate Markdown Showcase
+# Ultimate Markdown Demo
 
-Welcome to this comprehensive guide. This file demonstrates **all** the features we discussed.
-
----
-
-## 1. Typography & HTML
-You can use **Bold**, *Italic*, ***Bold Italic***, or ~~Strikethrough~~.
-Sometimes you need <span style="color:red">Inline HTML for custom colors</span> or <u>underlining</u>.
-
-> [!NOTE]
-> This is an Obsidian-style callout! It stands out from regular text.
+Welcome to a **complete Markdown example** showing many common and advanced features.
 
 ---
 
-## 2. Lists & Tasks
-### To-Do List
-- [x] Learn basic Markdown
-- [x] Try advanced features
-- [ ] Master Mermaid diagrams
-    - [ ] Sub-task 1
-    - [ ] Sub-task 2
+## Headings
 
-### Ordered & Unordered
-1. First item
-2. Second item
-   - Bullet A
-   - Bullet B
-3. Third item
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
 
 ---
 
-## 3. Code & Syntax Highlighting
-### Inline Code
-To print to the console in Python, use `print()`.
+## Text Formatting
 
-### Code Block (Python)
+**Bold text**
+
+*Italic text*
+
+***Bold + Italic***
+
+~~Strikethrough~~
+
+Inline code: `print("Hello Markdown")`
+
+Escaped characters: \*not italic\*
+
+---
+
+## Paragraphs and Line Breaks
+
+This is the first paragraph.
+
+This is another paragraph with  
+a manual line break.
+
+---
+
+## Lists
+
+### Unordered List
+
+- Item 1
+- Item 2
+  - Nested Item
+  - Another Nested Item
+- Item 3
+
+### Ordered List
+
+1. First
+2. Second
+3. Third
+
+---
+
+## Task Lists
+
+- [x] Write Markdown demo
+- [x] Add examples
+- [ ] Publish documentation
+
+---
+
+## Links
+
+[OpenAI](https://openai.com)
+
+Link to section: [Go to Tables](#tables)
+
+---
+
+## Images
+
+![Example Image](https://via.placeholder.com/300)
+
+Clickable image:
+
+[![Thumbnail](https://via.placeholder.com/150)](https://via.placeholder.com/600)
+
+Centered image using HTML:
+
+<p align="center">
+  <img src="https://via.placeholder.com/200" width="200"/>
+</p>
+
+---
+
+## Blockquotes
+
+> This is a quote.
+>
+> > Nested quote inside another quote.
+
+---
+
+## Tables
+
+| Name | Age | Role |
+|-----|-----|------|
+| Alice | 30 | Developer |
+| Bob | 40 | Manager |
+| Clara | 28 | Designer |
+
+### Table Alignment
+
+| Left | Center | Right |
+|:----|:------:|-----:|
+| A | B | C |
+| 1 | 2 | 3 |
+
+---
+
+## Definition List
+
+**HTTP**
+: HyperText Transfer Protocol
+
+**API**
+: Application Programming Interface
+
+---
+
+## Horizontal Rule
+
+---
+
+## Code Blocks
+
+### Python Example
 ```python
 def greet(name):
-# This is a comment
-return f"Hello, {name}!"
+print(f"Hello {name}")
 
-print(greet("Markdown User"))
+greet("World")
+```
+
+{
+  "name": "Markdown Demo",
+  "version": "1.0",
+  "features": ["tables", "lists", "code"]
+}
+
+Inline HTML
+This is <strong>bold using HTML</strong> and <em>italic using HTML</em>.
+
+<p style="color:red;">This text is styled with HTML.</p>
+
+:rocket: :fire: :tada: :smile:
+
+Here is a statement with a reference.[^1]
+
+Another reference here.[^2]
+
+[^1]: This is the first footnote.
+
+[^2]: This is the second footnote.
+$$
+
+E = mc^2
+
+$$
+
+graph TD
+A[Start] --> B{Decision}
+B -->|Yes| C[Continue]
+B -->|No| D[Stop]
+C --> E[Finish]
+D --> E
