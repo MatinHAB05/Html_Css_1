@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Project</title>
-    <link rel="stylesheet" href="../styles/logic_style.css">
-    <link rel="icon" href="../images/fav_icon.png">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/logic_style.css" />
+    <link rel="icon" href="images/fav_icon.png" />
+  </head>
+  <body>
     <header class="header_container">This is Header</header>
 
     <main class="main_container">
-        
-        <div class="form_info">
-            <div class="circle_design" id="the_top"></div>
+      <div class="form_info">
+        <div class="circle_design" id="the_top"></div>
 
-            <form action="nextpagedemo.html" method="" class="form_container" autocomplete="on" > 
-    
-                <div class="tilte_container"><span>Login Here</span></div>
-                <div class="username_container">
-                    <label for="username" class="label_container">Username</label>
-                    <!-- autofocus !? -->
-                    <input type="text" class="input_container" name="username"  required placeholder="Email or Phone">
-                </div>
-    
-                <div class="password_container">
-                    <label for="password" class="label_container">Password</label>
-                    <input type="password" class="input_container" name="password" required placeholder="Password">
-                </div>
-    
-                <div class="button_container">
-                    <input class="submit_button" type="submit" value="Log In" >
-                </div>
-            </form>
+        <form
+          action="nextpagedemo.html"
+          method=""
+          class="form_container"
+          autocomplete="on"
+        >
+          <div class="tilte_container"><span>Login Here</span></div>
+          <div class="username_container">
+            <label for="username" class="label_container">Username</label>
+            <!-- autofocus !? -->
+            <input
+              type="text"
+              class="input_container"
+              name="username"
+              required
+              placeholder="Email or Phone"
+            />
+          </div>
 
-            <div class="circle_design" id="the_bottom"></div>
-        </div>
+          <div class="password_container">
+            <label for="password" class="label_container">Password</label>
+            <input
+              type="password"
+              class="input_container"
+              name="password"
+              required
+              placeholder="Password"
+            />
+          </div>
 
+          <div class="button_container">
+            <input class="submit_button" type="submit" value="Log In" />
+          </div>
+        </form>
+
+        <div class="circle_design" id="the_bottom"></div>
+      </div>
     </main>
 
     <footer class="footer_container">This is Footer</footer>
-</body>
+  </body>
 </html>
